@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connect4Game", "Connect4Game\Connect4Game.csproj", "{FBA0FF99-5BD1-4D4E-A5E6-19FB3F93FC6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connect4Lib", "Connect4Lib\Connect4Lib.csproj", "{08926328-90CC-4D83-AFCF-14399B0A6F50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connect4LibTests", "Connect4LibTests\Connect4LibTests.csproj", "{936AE1FF-DCF9-40AE-831B-8ECF28F2EB76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{FBA0FF99-5BD1-4D4E-A5E6-19FB3F93FC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBA0FF99-5BD1-4D4E-A5E6-19FB3F93FC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBA0FF99-5BD1-4D4E-A5E6-19FB3F93FC6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08926328-90CC-4D83-AFCF-14399B0A6F50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08926328-90CC-4D83-AFCF-14399B0A6F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08926328-90CC-4D83-AFCF-14399B0A6F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08926328-90CC-4D83-AFCF-14399B0A6F50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{936AE1FF-DCF9-40AE-831B-8ECF28F2EB76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{936AE1FF-DCF9-40AE-831B-8ECF28F2EB76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{936AE1FF-DCF9-40AE-831B-8ECF28F2EB76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{936AE1FF-DCF9-40AE-831B-8ECF28F2EB76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

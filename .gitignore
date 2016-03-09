@@ -1,2 +1,5 @@
 Connect4Game/obj/
 bin/
+Connect4Lib/obj/
+Connect4LibTests/obj/
+packages/
