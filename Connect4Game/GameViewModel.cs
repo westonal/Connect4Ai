@@ -1,6 +1,11 @@
-﻿namespace Connect4Game
+﻿using Connect4Lib;
+
+namespace Connect4Game
 {
-    class GameViewModel
+    public sealed class GameViewModel
     {
+        private Game game;
+
+
     }
 }

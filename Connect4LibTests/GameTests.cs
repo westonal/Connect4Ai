@@ -7,9 +7,26 @@ namespace Connect4LibTests
     public sealed class GameTests
     {
         [Test]
-        public void a()
+        public void Row_for_column()
         {
-            new Game();
+            var game = new Game();
+            Assert.AreEqual(6, game.RowForColumn(0));
+            Assert.IsTrue(game.Play(0));
+            Assert.AreEqual(5, game.RowForColumn(0));
+            Assert.IsTrue(game.Play(0));
+            Assert.AreEqual(4, game.RowForColumn(0));
+            Assert.IsTrue(game.Play(0));
+            Assert.AreEqual(3, game.RowForColumn(0));
+            Assert.IsTrue(game.Play(0));
+            Assert.AreEqual(2, game.RowForColumn(0));
+            Assert.IsTrue(game.Play(0));
+            Assert.AreEqual(1, game.RowForColumn(0));
+            Assert.IsTrue(game.Play(0));
+            Assert.AreEqual(0, game.RowForColumn(0));
+            Assert.IsTrue(game.Play(0));
+            Assert.AreEqual(-1, game.RowForColumn(0));
+            Assert.IsFalse(game.Play(0));
+            Assert.AreEqual(-1, game.RowForColumn(0));
         }
     }
 }

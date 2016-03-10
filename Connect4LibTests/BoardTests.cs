@@ -34,5 +34,14 @@ namespace Connect4LibTests
             Assert.IsFalse(board.Play(3));
         }
 
+        [Test]
+        public void Can_get_next_available_play_height()
+        {
+            var board = new Board();
+            Assert.AreEqual(6,board.RowForColumn(4));
+            board.Play(4);
+            Assert.AreEqual(5, board.RowForColumn(4));
+        }
+
     }
 }
