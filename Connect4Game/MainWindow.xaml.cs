@@ -21,8 +21,8 @@ namespace Connect4Game
                     var newCircle = new Ellipse
                     {
                         Stroke = Brushes.Black,
-                        Width = 20,
-                        Height = 20
+                        Width = 40,
+                        Height = 40
                     };
                     Grid.SetRow(newCircle, row + 1);
                     Grid.SetColumn(newCircle, column);
